@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Meine1NodeRed
+  host: Meine1NodeRed
+  disk_quota: 1024M
+  services:
+  - Meine1NodeRed-cloudantNoSQLDB
+  - Language Translator-3h
+  - Conversation-w9
